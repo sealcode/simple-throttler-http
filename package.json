@@ -1,0 +1,27 @@
+{
+  "name": "simple-throttler-http",
+  "version": "1.0.0",
+  "description": "Throttle http requests so they don't run too often. Useful for scraping websites ;)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealcode/simple-throttler-http.git"
+  },
+  "keywords": [
+    "throttle"
+  ],
+  "author": "Kuba from Sealcode.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sealcode/simple-throttler-http/issues"
+  },
+  "homepage": "https://github.com/sealcode/simple-throttler-http#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "simple-throttler": "^1.0.1"
+  }
+}
